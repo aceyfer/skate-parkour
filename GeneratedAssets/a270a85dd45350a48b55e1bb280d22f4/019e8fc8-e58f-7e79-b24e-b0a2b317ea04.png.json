@@ -1,0 +1,28 @@
+{
+    "asset": "a270a85dd45350a48b55e1bb280d22f4",
+    "fileName": "019e8fc8-e58f-7e79-b24e-b0a2b317ea04.png",
+    "prompt": "",
+    "negativePrompt": "",
+    "model": "scenario-gemini-upscale",
+    "modelName": "Gemini Upscale",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Upscale",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 2,
+    "dimensions": {
+        "width": 0,
+        "height": 0
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

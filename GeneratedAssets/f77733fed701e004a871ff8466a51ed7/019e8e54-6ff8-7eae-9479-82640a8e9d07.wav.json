@@ -1,0 +1,15 @@
+{
+    "asset": "f77733fed701e004a871ff8466a51ed7",
+    "fileName": "019e8e54-6ff8-7eae-9479-82640a8e9d07.wav",
+    "prompt": "soft mechanical sci-fi landing thud, metallic impact on concrete",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

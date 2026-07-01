@@ -1,0 +1,12 @@
+{
+    "asset": "60d3ee115ea59ef48b7f567c6f3654bf",
+    "fileName": "019e8e67-d061-77dc-aebe-c61500cd8540_Preview.jpg",
+    "prompt": "seamless tileable weathered painted metal surface, rust streaks, chipped paint, thin frost crystals, cold industrial street prop material",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 927835613,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "f34f6a4305e731e4db68027ed0e26307",
+    "fileName": "019e8e67-ceb7-71ad-80cf-e559d93380b5_Preview.jpg",
+    "prompt": "seamless tileable cracked dark asphalt road surface, frost and thin ice in the cracks, frozen wet pavement, subtle blue cold tint, urban street texture, top-down",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1209353859,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

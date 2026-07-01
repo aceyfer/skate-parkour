@@ -1,0 +1,23 @@
+{
+    "asset": "2f7abe6d65f07704dbb2263876935f93",
+    "fileName": "019e7ffa-09fc-7fb7-a7d3-518b8ee9bfbc.glb",
+    "prompt": "Black griptape on top, blue and black deck design on the bottom, silver trucks, white wheels. Realistic.",
+    "negativePrompt": "",
+    "model": "model3d-tripo3-texturing",
+    "modelName": "Tripo 3.0 Texturing",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Texturing",
+    "promptImageReferenceGuid": "",
+    "modelReferenceGuid": "2f7abe6d65f07704dbb2263876935f93",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,28 @@
+{
+    "asset": "66c7aa7e53fe98f439407feaac75c52e",
+    "fileName": "019e8fca-3c3c-791e-a0dc-ffe8881e2423.png",
+    "prompt": "High-resolution extreme close-up of a realistic white male face for a 3D game character. Clear blue eyes with iris detail, realistic skin texture with visible pores and subtle stubble, neutral expression. Professional character texture map style, front view, high detail, 4k.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

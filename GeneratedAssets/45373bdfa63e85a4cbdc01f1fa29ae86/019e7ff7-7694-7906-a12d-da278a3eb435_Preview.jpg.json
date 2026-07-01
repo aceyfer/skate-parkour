@@ -1,0 +1,12 @@
+{
+    "asset": "45373bdfa63e85a4cbdc01f1fa29ae86",
+    "fileName": "019e7ff7-7694-7906-a12d-da278a3eb435_Preview.jpg",
+    "prompt": "Seamless dark grey asphalt road texture, realistic, with a single solid yellow line running through the center, high detail, top-down view, tileable",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 203300638,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

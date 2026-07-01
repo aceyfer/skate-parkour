@@ -1,0 +1,23 @@
+{
+    "asset": "25d3492cfc92d9a4cba1e65e6b019096",
+    "fileName": "019e751d-11b4-7ae0-80ed-4882f3c2bad5.glb",
+    "prompt": "A shiny blue diamond coin, stylized low poly, glowing crystal material, matching the reference image.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "a1ed1b7504991164ba97d617e6c20626",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

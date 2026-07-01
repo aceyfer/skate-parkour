@@ -1,0 +1,28 @@
+{
+    "asset": "619e5271c7528704095638b87b02adc5",
+    "fileName": "019e8f91-0873-765e-ab5a-589a6a411b18.png",
+    "prompt": "Modular road segment 3D model concept, dark asphalt with yellow double lines and white side lines, gritty realistic urban style, top-down and perspective views, isolated on white background.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

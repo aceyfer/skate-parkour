@@ -1,0 +1,23 @@
+{
+    "asset": "e696a363c5e53fe4494821ec69d48aed",
+    "fileName": "019e89cd-0101-7dd0-a016-7e36e6f15ede.glb",
+    "prompt": "Futuristic hoverboard, sleek black and glowing blue energy, no wheels or trucks, aerodynamic design, glowing blue engine vents at the bottom. Ensure high fidelity mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "b9be0e42505d177429140de5bf191016",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,38 @@
+{
+    "asset": "bda617465c0019a46b008a10d71bcd96",
+    "fileName": "019e9114-43a5-7fa4-a3fa-daa7948643bb.png",
+    "prompt": "In this character UV texture sheet, locate the human face in the bottom-right corner. Fix the nose area which is currently black or heavily shadowed. Replace it with clean, realistic Caucasian skin tones. Ensure the face looks human and remove any 'ghoul' or creepy artifacts. Keep all other parts of the texture (clothes, hands, shoes) exactly as they are.",
+    "negativePrompt": "",
+    "model": "gpt-image-1-5",
+    "modelName": "GPT Image 1.5",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "66c7aa7e53fe98f439407feaac75c52e",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

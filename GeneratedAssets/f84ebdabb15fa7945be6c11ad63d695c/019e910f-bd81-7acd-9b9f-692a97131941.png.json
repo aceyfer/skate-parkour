@@ -1,0 +1,38 @@
+{
+    "asset": "f84ebdabb15fa7945be6c11ad63d695c",
+    "fileName": "019e910f-bd81-7acd-9b9f-692a97131941.png",
+    "prompt": "fix the face at the bottom right corner of this UV texture sheet. replace the black area on the nose with realistic light skin tones matching the rest of the face. the character should have blue eyes and a realistic human appearance, removing the creepy 'ghoul' look. keep the rest of the clothing and textures unchanged.",
+    "negativePrompt": "",
+    "model": "gpt-image-1-5",
+    "modelName": "GPT Image 1.5",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "66c7aa7e53fe98f439407feaac75c52e",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

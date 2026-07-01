@@ -1,0 +1,28 @@
+{
+    "asset": "be36e5a72e4aab14c92ceda6256b8508",
+    "fileName": "019e8fce-13d0-71b8-852c-ce4c3f301381.png",
+    "prompt": "Full body game character concept art: photorealistic white male skater, detailed face with visible skin pores and subtle stubble, clear bright blue eyes, short brown textured hair. Wearing a high-detail urban outfit (grey hoodie with fabric weave visible, dark cargo pants with pocket details, white leather sneakers). Front view, T-pose, isolated on white background, professional 4k character sheet.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

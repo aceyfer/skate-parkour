@@ -1,0 +1,23 @@
+{
+    "asset": "6405efb7cdfab09439727b040d97e354",
+    "fileName": "019e89d5-c181-79aa-9bd0-3b44c74a6ee0.glb",
+    "prompt": "Aerodynamic futuristic hoverboard, teardrop shape with pointed nose and sleek tail, no wheels or trucks, glowing blue engine vents, black carbon fiber body. High-fidelity 3D mesh.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "cd6d7d6b23ebe914a8fcb63d1e49023e",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

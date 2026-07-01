@@ -1,0 +1,15 @@
+{
+    "asset": "7e0fa74c19dddbb49b914957c1b4c689",
+    "fileName": "019e8e54-5662-793b-b961-852ff8c29dd1.wav",
+    "prompt": "short snappy sci-fi jump sound, energetic air whoosh, pop jump",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

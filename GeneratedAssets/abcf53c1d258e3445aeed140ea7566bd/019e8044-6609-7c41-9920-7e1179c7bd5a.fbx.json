@@ -1,0 +1,12 @@
+{
+    "asset": "abcf53c1d258e3445aeed140ea7566bd",
+    "fileName": "019e8044-6609-7c41-9920-7e1179c7bd5a.fbx",
+    "prompt": "A skateboarder pushing off the ground with one foot while standing on a skateboard. The character's other foot remains on the board. A smooth pushing motion.",
+    "negativePrompt": "",
+    "model": "uthana-text-to-motion",
+    "modelName": "Uthana Text to Motion",
+    "customSeed": 2014988096,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

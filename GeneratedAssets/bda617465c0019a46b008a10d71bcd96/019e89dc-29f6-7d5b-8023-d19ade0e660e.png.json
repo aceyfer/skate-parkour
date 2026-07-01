@@ -1,0 +1,38 @@
+{
+    "asset": "bda617465c0019a46b008a10d71bcd96",
+    "fileName": "019e89dc-29f6-7d5b-8023-d19ade0e660e.png",
+    "prompt": "Recolor the character's clothing in this texture to a blue and black color scheme. The shirt should be blue and the pants should be black. Keep the skin tone, eyes, and face details exactly as they are in the original. This is a UV texture map for a 3D character.",
+    "negativePrompt": "",
+    "model": "gpt-image-1-5",
+    "modelName": "GPT Image 1.5",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "bda617465c0019a46b008a10d71bcd96",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

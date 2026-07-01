@@ -1,0 +1,28 @@
+{
+    "asset": "cd6d7d6b23ebe914a8fcb63d1e49023e",
+    "fileName": "019e89d4-2790-741e-b5d3-1cc03ffed5e8.png",
+    "prompt": "Aerodynamic futuristic hoverboard concept, teardrop shape with a pointed nose and tapered tail, sleek black carbon fiber deck, vibrant glowing blue energy lines and engine vents, no wheels, no trucks, centered top-down view, isolated on plain white background, high-detail 3D digital render, cinematic lighting.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

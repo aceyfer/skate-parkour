@@ -1,0 +1,28 @@
+{
+    "asset": "fff2ccb5181c77b47adf6423afe29daa",
+    "fileName": "019e8fd0-4c0b-7abd-892d-4bdd0b70bef3.png",
+    "prompt": "High-resolution 3D game character sheet of a detailed white male skater. Photorealistic skin textures, visible pores, blue eyes, brown hair. Front view, T-pose, wearing urban clothes. Isolated on a solid magenta background for easy cutout. 4k detail.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

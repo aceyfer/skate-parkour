@@ -1,0 +1,28 @@
+{
+    "asset": "b9be0e42505d177429140de5bf191016",
+    "fileName": "019e89cb-147a-73d8-8d40-70e5cba2264e.png",
+    "prompt": "Futuristic sci-fi hoverboard, sleek black carbon fiber deck, vibrant glowing blue energy vents and lines, no wheels, no trucks, centered top-down view, isolated on plain white background, high-detail 3D digital render.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

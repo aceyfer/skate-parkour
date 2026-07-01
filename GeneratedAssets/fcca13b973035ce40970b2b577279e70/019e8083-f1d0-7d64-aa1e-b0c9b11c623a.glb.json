@@ -1,0 +1,23 @@
+{
+    "asset": "fcca13b973035ce40970b2b577279e70",
+    "fileName": "019e8083-f1d0-7d64-aa1e-b0c9b11c623a.glb",
+    "prompt": "High-quality 3D character mesh of the teenage skateboarder in the reference image. Stylized human, T-pose, realistic proportions. Wearing a black hoodie and baggy pants.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "9b3c387888f5bce47989ecbfc77cd698",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,15 @@
+{
+    "asset": "225b5700576947c4a8de144ede257e98",
+    "fileName": "019e8e54-a7fc-74ad-b70d-04c9c05e0b3a.wav",
+    "prompt": "triumphant digital notification sound, level completed success chime",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 3.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

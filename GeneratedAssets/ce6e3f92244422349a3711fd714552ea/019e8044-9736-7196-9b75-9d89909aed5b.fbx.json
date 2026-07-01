@@ -1,0 +1,12 @@
+{
+    "asset": "ce6e3f92244422349a3711fd714552ea",
+    "fileName": "019e8044-9736-7196-9b75-9d89909aed5b.fbx",
+    "prompt": "A skateboarder performing an ollie jump. They crouch down, pop the tail, and jump into the air with the board.",
+    "negativePrompt": "",
+    "model": "uthana-text-to-motion",
+    "modelName": "Uthana Text to Motion",
+    "customSeed": 767908167,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

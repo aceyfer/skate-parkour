@@ -1,0 +1,12 @@
+{
+    "asset": "9b1744935975bc34fa59780305b4aaf1",
+    "fileName": "019e8095-9e47-7c5f-8622-41ff5f2a8afe.fbx",
+    "prompt": "A skateboarder leaning right while riding.",
+    "negativePrompt": "",
+    "model": "uthana-text-to-motion",
+    "modelName": "Uthana Text to Motion",
+    "customSeed": 616845145,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "e270f695492a25c48a6092308046fd90",
+    "fileName": "019e855e-3b98-70e3-9a1c-92c4a96a0829_Preview.png",
+    "prompt": "Seamless texture of a glowing fiery pit, deep black volcanic rocks, intense red and orange lava in cracks, emissive glow, high contrast.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1466499067,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

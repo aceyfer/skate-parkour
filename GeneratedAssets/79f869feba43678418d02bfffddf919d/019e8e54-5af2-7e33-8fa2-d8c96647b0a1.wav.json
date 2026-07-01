@@ -1,0 +1,15 @@
+{
+    "asset": "79f869feba43678418d02bfffddf919d",
+    "fileName": "019e8e54-5af2-7e33-8fa2-d8c96647b0a1.wav",
+    "prompt": "crystalline digital chime, sparkly rewarding collection sound, magic item pickup",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 2.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

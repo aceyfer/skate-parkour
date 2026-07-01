@@ -1,0 +1,12 @@
+{
+    "asset": "dc534e9df8a60164f96d1103abbe091c",
+    "fileName": "019e8e67-d189-75aa-902d-13bffb14987d_Preview.jpg",
+    "prompt": "seamless tileable weathered concrete apartment building facade, grid of dark windows, cracked grey plaster, urban brutalist wall, cold frosted abandoned look",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1748616663,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

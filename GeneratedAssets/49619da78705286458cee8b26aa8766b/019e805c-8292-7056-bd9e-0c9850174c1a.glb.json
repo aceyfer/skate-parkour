@@ -1,0 +1,23 @@
+{
+    "asset": "49619da78705286458cee8b26aa8766b",
+    "fileName": "019e805c-8292-7056-bd9e-0c9850174c1a.glb",
+    "prompt": "High-quality 3D character mesh of the alien in the reference image. Black skin, glowing blue tattoos, purple eyes, wearing a black hoodie. T-pose.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "8cddc905ee60b164fbd947b42fc40391",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

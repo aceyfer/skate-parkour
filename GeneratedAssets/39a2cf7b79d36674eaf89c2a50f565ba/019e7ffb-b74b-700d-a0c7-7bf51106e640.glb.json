@@ -1,0 +1,23 @@
+{
+    "asset": "39a2cf7b79d36674eaf89c2a50f565ba",
+    "fileName": "019e7ffb-b74b-700d-a0c7-7bf51106e640.glb",
+    "prompt": "Caucasian male skater, blue hoodie, black pants, black shoes. Realistic.",
+    "negativePrompt": "",
+    "model": "model3d-tripo3-texturing",
+    "modelName": "Tripo 3.0 Texturing",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Texturing",
+    "promptImageReferenceGuid": "",
+    "modelReferenceGuid": "39a2cf7b79d36674eaf89c2a50f565ba",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

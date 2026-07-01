@@ -1,0 +1,12 @@
+{
+    "asset": "f0693dafc25f9734aacac44f5dd0f55f",
+    "fileName": "019e8095-62b8-7cf8-9107-9c43fb7ea974.fbx",
+    "prompt": "A professional skateboarder in a relaxed ready stance with knees bent.",
+    "negativePrompt": "",
+    "model": "uthana-text-to-motion",
+    "modelName": "Uthana Text to Motion",
+    "customSeed": 572223794,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

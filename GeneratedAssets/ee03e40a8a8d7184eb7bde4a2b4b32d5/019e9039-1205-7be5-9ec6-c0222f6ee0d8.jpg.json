@@ -1,0 +1,38 @@
+{
+    "asset": "ee03e40a8a8d7184eb7bde4a2b4b32d5",
+    "fileName": "019e9039-1205-7be5-9ec6-c0222f6ee0d8.jpg",
+    "prompt": "recolor the skater to have Caucasian skin tone, a blue hoodie, and black pants. keep the overall layout and details consistent with the reference image.",
+    "negativePrompt": "",
+    "model": "seedream-4-5",
+    "modelName": "Seedream 4.5",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "ee03e40a8a8d7184eb7bde4a2b4b32d5",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
