@@ -205,7 +205,7 @@ public Vector3 level1B_Start = new Vector3(-30, 2, 0);
 
         if (player != null)
         {
-            player.transform.rotation = Quaternion.Euler(0, 90, 0);
+            player.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
     }
 
