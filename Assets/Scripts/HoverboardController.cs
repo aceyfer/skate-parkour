@@ -199,7 +199,7 @@ private InputAction jumpAction;
 
         Transform boardTransform = hoverboardMesh.transform;
         boardTransform.localPosition = new Vector3(0f, 0.85f, 0f);
-        boardTransform.localRotation = Quaternion.Euler(90f, 90f, 0f);
+        boardTransform.localRotation = Quaternion.identity;
         boardTransform.localScale = Vector3.one;
     }
 
