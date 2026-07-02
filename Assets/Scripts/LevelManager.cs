@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 public class LevelManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private TMPro.TextMeshProUGUI fragmentCounterText;
 [SerializeField] private AudioClip unlockSound;
     [SerializeField] private AudioSource globalSource;
+    [SerializeField] private string level1AObjectiveName = "GoalCoin_1A";
     private int fragmentsCollected = 0;
 private bool goalMet = false;
     private Vector3 currentCheckpointPosition;
@@ -121,8 +123,10 @@ public Vector3 level1B_Start = new Vector3(-30, 2, 0);
         }
     }
 
-    private void Start()
+    private IEnumerator Start()
     {
+        AlignPlayerToCurrentSubLevelStart();
+        yield return null;
         AlignPlayerToCurrentSubLevelStart();
         InitializeCheckpoint();
         UpdateHUD();
@@ -205,8 +209,37 @@ public Vector3 level1B_Start = new Vector3(-30, 2, 0);
 
         if (player != null)
         {
+            Transform objective = FindSceneTransform(level1AObjectiveName);
+            if (objective != null)
+            {
+                Vector3 direction = objective.position - player.transform.position;
+                direction.y = 0f;
+
+                if (direction.sqrMagnitude > 0.001f)
+                {
+                    player.transform.rotation = Quaternion.LookRotation(direction.normalized, Vector3.up);
+                    return;
+                }
+            }
+
             player.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
+    }
+
+    private Transform FindSceneTransform(string objectName)
+    {
+        if (string.IsNullOrEmpty(objectName)) return null;
+
+        Transform[] transforms = FindObjectsByType<Transform>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        foreach (Transform candidate in transforms)
+        {
+            if (candidate.name == objectName)
+            {
+                return candidate;
+            }
+        }
+
+        return null;
     }
 
     private void InitializeCheckpoint()
