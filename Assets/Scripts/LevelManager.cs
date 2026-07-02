@@ -123,6 +123,7 @@ public Vector3 level1B_Start = new Vector3(-30, 2, 0);
 
     private void Start()
     {
+        AlignPlayerToCurrentSubLevelStart();
         InitializeCheckpoint();
         UpdateHUD();
     }
@@ -194,6 +195,19 @@ public Vector3 level1B_Start = new Vector3(-30, 2, 0);
     }
 
     public string GetCurrentSubLevel() => currentSubLevel;
+
+    private void AlignPlayerToCurrentSubLevelStart()
+    {
+        if (currentSubLevel != "1A") return;
+
+        GameObject player = GameObject.Find("Player_Hoverboard");
+        if (player == null) player = GameObject.Find("Player");
+
+        if (player != null)
+        {
+            player.transform.rotation = Quaternion.Euler(0, 90, 0);
+        }
+    }
 
     private void InitializeCheckpoint()
     {
