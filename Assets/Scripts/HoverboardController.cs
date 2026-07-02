@@ -38,8 +38,6 @@ public class HoverboardController : MonoBehaviour
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float walkJumpForce = 6f;
     [SerializeField] private GameObject hoverboardMesh;
-    [SerializeField] private Vector3 boardLocalPosition = new Vector3(0f, 0.1f, 0f);
-    [SerializeField] private Vector3 boardLocalEuler = Vector3.zero;
     private bool isOnBoard = true;
 
     private Animator animator; // Cached animator
@@ -200,8 +198,8 @@ private InputAction jumpAction;
         if (hoverboardMesh == null) return;
 
         Transform boardTransform = hoverboardMesh.transform;
-        boardTransform.localPosition = boardLocalPosition;
-        boardTransform.localRotation = Quaternion.Euler(boardLocalEuler);
+        boardTransform.localPosition = new Vector3(0f, 0.85f, 0f);
+        boardTransform.localRotation = Quaternion.Euler(90f, 90f, 0f);
         boardTransform.localScale = Vector3.one;
     }
 
