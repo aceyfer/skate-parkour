@@ -38,7 +38,7 @@ public class HoverboardController : MonoBehaviour
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float walkJumpForce = 6f;
     [SerializeField] private GameObject hoverboardMesh;
-    [SerializeField] private Vector3 boardLocalPosition = new Vector3(0f, -1.15f, 0f);
+    [SerializeField] private Vector3 boardLocalPosition = new Vector3(0f, 0.1f, 0f);
     [SerializeField] private Vector3 boardLocalEuler = Vector3.zero;
     private bool isOnBoard = true;
 
