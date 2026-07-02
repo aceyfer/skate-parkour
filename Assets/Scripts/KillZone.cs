@@ -27,8 +27,19 @@ public class KillZone : MonoBehaviour
 
     private void TeleportPlayer(CharacterController controller)
     {
+        Vector3 targetPosition = respawnPosition;
+        Quaternion targetRotation = controller.transform.rotation;
+
+        if (LevelManager.Instance != null &&
+            LevelManager.Instance.TryGetCheckpoint(out Vector3 checkpointPosition, out Quaternion checkpointRotation))
+        {
+            targetPosition = checkpointPosition;
+            targetRotation = checkpointRotation;
+        }
+
         controller.enabled = false;
-        controller.transform.position = respawnPosition;
+        controller.transform.position = targetPosition;
+        controller.transform.rotation = targetRotation;
         controller.enabled = true;
 
         // Reset skater velocity so they don't keep moving after respawn
@@ -38,6 +49,6 @@ public class KillZone : MonoBehaviour
         var hover = controller.GetComponent<HoverboardController>();
         if (hover != null) hover.ResetVelocity();
 
-        Debug.Log("Player fell into KillZone! Teleported to: " + respawnPosition);
+        Debug.Log("Player fell into KillZone! Teleported to: " + targetPosition);
     }
 }

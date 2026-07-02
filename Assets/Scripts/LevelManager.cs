@@ -17,6 +17,9 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private AudioSource globalSource;
     private int fragmentsCollected = 0;
 private bool goalMet = false;
+    private Vector3 currentCheckpointPosition;
+    private Quaternion currentCheckpointRotation = Quaternion.identity;
+    private bool hasCheckpoint = false;
 
     [Header("Teleport Destinations")]
 public Vector3 level1B_Start = new Vector3(-30, 2, 0);
@@ -120,6 +123,7 @@ public Vector3 level1B_Start = new Vector3(-30, 2, 0);
 
     private void Start()
     {
+        InitializeCheckpoint();
         UpdateHUD();
     }
 
@@ -177,6 +181,7 @@ public Vector3 level1B_Start = new Vector3(-30, 2, 0);
             // Safety: offset destination slightly up to avoid spawning inside ground
             player.transform.position = destination + Vector3.up * 0.2f;
             player.transform.rotation = rotation;
+            SetCheckpoint(player.transform.position, player.transform.rotation);
             
             if (cc != null) cc.enabled = true;
 
@@ -189,4 +194,29 @@ public Vector3 level1B_Start = new Vector3(-30, 2, 0);
     }
 
     public string GetCurrentSubLevel() => currentSubLevel;
+
+    private void InitializeCheckpoint()
+    {
+        GameObject player = GameObject.Find("Player_Hoverboard");
+        if (player == null) player = GameObject.Find("Player");
+
+        if (player != null)
+        {
+            SetCheckpoint(player.transform.position, player.transform.rotation);
+        }
+    }
+
+    public void SetCheckpoint(Vector3 position, Quaternion rotation)
+    {
+        currentCheckpointPosition = position;
+        currentCheckpointRotation = rotation;
+        hasCheckpoint = true;
+    }
+
+    public bool TryGetCheckpoint(out Vector3 position, out Quaternion rotation)
+    {
+        position = currentCheckpointPosition;
+        rotation = currentCheckpointRotation;
+        return hasCheckpoint;
+    }
 }

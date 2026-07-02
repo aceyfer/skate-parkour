@@ -12,6 +12,10 @@ public class HoverboardController : MonoBehaviour
     [Tooltip("Damping to prevent oscillation.")]
     [SerializeField] private float damperStrength = 12f;
     [SerializeField] private float gravity = -35f; // Increased gravity for less hangtime
+    [Tooltip("Extra gravity while falling to make landings feel snappier without reducing jump height.")]
+    [SerializeField] private float fallGravityMultiplier = 1.45f;
+    [Tooltip("Fastest downward speed allowed.")]
+    [SerializeField] private float maxFallSpeed = 42f;
 
     [Header("Movement")]
     [Tooltip("Continuous acceleration using Psy Energy when holding forward.")]
@@ -61,6 +65,8 @@ private InputAction jumpAction;
     private bool canJump; // Buffer for jumping
     private float settleTimer = 0f;
     private const float SettleDuration = 0.5f; // Increased for stability
+    private float lastCheckpointTime;
+    private Vector3 lastCheckpointPosition;
 
     public void ResetVelocity()
     {
@@ -263,14 +269,19 @@ private InputAction jumpAction;
                 // Above hover height: apply gravity
                 // We consider it 'hovering' if close enough to the ground to steer
                 isCurrentlyHovering = distance < hoverHeight + 0.15f;
-                verticalVelocity += gravity * Time.deltaTime;
+                ApplyGravity();
+            }
+
+            if (isCurrentlyHovering)
+            {
+                TryUpdateSurfaceCheckpoint(hit.collider);
             }
         }
         else
         {
             isCurrentlyHovering = false;
             isCloseToGround = false;
-            verticalVelocity += gravity * Time.deltaTime;
+            ApplyGravity();
         }
 
         // Landing Sound
@@ -292,7 +303,7 @@ private InputAction jumpAction;
         }
 
         // Safety clamp for vertical velocity
-        verticalVelocity = Mathf.Clamp(verticalVelocity, gravity * 2f, 50f);
+        verticalVelocity = Mathf.Clamp(verticalVelocity, -maxFallSpeed, 50f);
     }
 
     private void HandleInput()
@@ -333,6 +344,35 @@ private InputAction jumpAction;
                 }
             }
         }
+    }
+
+    private void ApplyGravity()
+    {
+        float gravityScale = verticalVelocity < 0f ? fallGravityMultiplier : 1f;
+        verticalVelocity += gravity * gravityScale * Time.deltaTime;
+    }
+
+    private void TryUpdateSurfaceCheckpoint(Collider surface)
+    {
+        if (LevelManager.Instance == null || surface == null || settleTimer > 0f) return;
+
+        string surfaceName = surface.gameObject.name;
+        bool isCheckpointSurface =
+            surfaceName.StartsWith("Road_1") ||
+            surfaceName.Contains("Platform") ||
+            surfaceName.Contains("RiftPlatform");
+
+        if (!isCheckpointSurface) return;
+        if (Time.time - lastCheckpointTime < 0.75f &&
+            Vector3.Distance(transform.position, lastCheckpointPosition) < 2f)
+        {
+            return;
+        }
+
+        Vector3 checkpointPosition = transform.position + Vector3.up * 0.2f;
+        LevelManager.Instance.SetCheckpoint(checkpointPosition, transform.rotation);
+        lastCheckpointPosition = transform.position;
+        lastCheckpointTime = Time.time;
     }
 
     private void HandleMovement()
