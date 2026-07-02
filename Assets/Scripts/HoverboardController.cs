@@ -38,6 +38,8 @@ public class HoverboardController : MonoBehaviour
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float walkJumpForce = 6f;
     [SerializeField] private GameObject hoverboardMesh;
+    [SerializeField] private Vector3 boardLocalPosition = new Vector3(0f, -1.15f, 0f);
+    [SerializeField] private Vector3 boardLocalEuler = Vector3.zero;
     private bool isOnBoard = true;
 
     private Animator animator; // Cached animator
@@ -56,7 +58,7 @@ public class HoverboardController : MonoBehaviour
     private bool wasGrounded; // To detect landing
     
     private InputAction moveAction;
-private InputAction jumpAction;
+    private InputAction jumpAction;
     private InputAction interactAction;
 
     private bool isCrouching;
@@ -172,7 +174,7 @@ private InputAction jumpAction;
 
         // 3. Jump/Crouch Visuals
         // We let the Animator handle the crouch visuals via parameters.
-        // The container no longer squashes to avoid 'retarded' board visuals.
+        // Keep mesh dimensions stable so the board visual does not warp.
         
         // Apply all to visualsContainer
         visualsContainer.localPosition = new Vector3(0, bob, 0);
@@ -198,8 +200,8 @@ private InputAction jumpAction;
         if (hoverboardMesh == null) return;
 
         Transform boardTransform = hoverboardMesh.transform;
-        boardTransform.localPosition = new Vector3(0f, 0.85f, 0f);
-        boardTransform.localRotation = Quaternion.identity;
+        boardTransform.localPosition = boardLocalPosition;
+        boardTransform.localRotation = Quaternion.Euler(boardLocalEuler);
         boardTransform.localScale = Vector3.one;
     }
 
